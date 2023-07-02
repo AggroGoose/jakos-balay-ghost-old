@@ -1,0 +1,26 @@
+{
+  "name": "jakos-balay-ghost",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@tryghost/content-api": "^1.11.13",
+    "@types/node": "20.3.2",
+    "@types/react": "18.2.14",
+    "@types/react-dom": "18.2.6",
+    "cheerio": "^1.0.0-rc.12",
+    "next": "13.4.7",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "sass": "^1.63.6",
+    "typescript": "5.1.6"
+  },
+  "devDependencies": {
+    "@types/tryghost__content-api": "^1.3.11"
+  }
+}
